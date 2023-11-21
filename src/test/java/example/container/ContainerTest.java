@@ -5,6 +5,9 @@ import org.junit.Test;
 
 import java.util.Set;
 public class ContainerTest {
+    /**
+     * Тест команды add
+     */
     @Test
     public void testAdd(){
         Container container = new Container();
@@ -18,6 +21,9 @@ public class ContainerTest {
                 .allMatch(container::contains));
     }
 
+    /**
+     * Тест команды remove
+     */
     @Test
     public void testRemove(){
         Container container = new Container();
